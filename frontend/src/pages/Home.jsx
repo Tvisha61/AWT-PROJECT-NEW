@@ -106,7 +106,6 @@ const Home = () => {
       <nav style={styles.navbar}>
         <div style={styles.brand}>AINOTES</div>
         <div>
-          <a href="#about" style={{ color: "white", textDecoration: "none", fontSize: "18px", cursor: "pointer", marginRight: "20px" }}>About Us</a>
           <Link to="/signup"><button style={styles.button}>Signup</button></Link>
           <Link to="/login"><button style={{ ...styles.button, marginLeft: "10px" }}>Login</button></Link>
         </div>
